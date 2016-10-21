@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon lib/server.js --exec babel-node --presets es2015,stage-0",
     "build": "babel lib -d dist --presets es2015,stage-0",
-    "lint": "eslint libs",
+    "lint": "eslint lib",
     "serve": "node dist/server.js",
     "clean": "rm -rf dist",
     "prebuild": "npm run clean && npm -s install",
