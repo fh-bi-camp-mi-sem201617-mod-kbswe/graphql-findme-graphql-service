@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Service for connecting graphql to the mongoDB.",
   "scripts": {
+    "prestart": "npm -s install",
     "start": "nodemon lib/server.js --exec babel-node --presets es2015,stage-0",
     "build": "babel lib -d dist --presets es2015,stage-0",
     "lint": "eslint lib || exit 0",
