@@ -5,12 +5,12 @@
   "scripts": {
     "preserve": "( ping -c 1 google.de && npm -s install ) || exit 0",
     "serve": "nodemon lib/server.js --exec babel-node --presets es2015,stage-0",
+    "prebuild": "mkdir -p dist",
     "build": "babel lib -d dist --presets es2015,stage-0",
-    "lint": "eslint lib || exit 0",
-    "start": "node dist/server.js",
-    "clean": "rm -rf dist",
     "prestart": "npm run build",
-    "prebuild": "mkdir -p dist"
+    "start": "node dist/server.js",
+    "lint": "eslint lib || true",
+    "clean": "rm -rf dist"
   },
   "repository": {
     "type": "git",
