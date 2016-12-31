@@ -1,7 +1,7 @@
-# FindMe GraphQL Service
+# find.me GraphQL Service
 
 This project offers a GraphQL service to communicate with the database backend
-of FindMe.
+of find.me.
 
 To run this service you need a running MongoDB instance.
 
