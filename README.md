@@ -51,7 +51,7 @@ on HTTP port `8080`.
 You can run the full application stack
 (including database, GraphQL service, web frontend)
 by using a prepared environment based on Docker.
-This environment build and runs everything is needed to build and run the whole
+This environment builds and runs everything is needed to build and run the whole
 project with all dependencies and stuff.
 For more information and instructions see the readme file of
 [find.me Full Stack](https://github.com/kswe-2016-17/graphql-findme-full-stack)
